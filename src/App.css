@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jacquard+12&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 .App {
   text-align: center;
+}
+
+body,
+html {
+  font-family: 'Comfortaa', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +42,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grn-bg-color {
+  background-color: #215240;
+}
+
+.grn-font-color {
+  color: #3f6557;
+}
+
+.bl-bg-color {
+  background-color: #221a43;
+}
+
+.explore {
+  font-size: 30px;
+}
+
+.border-rad-0 {
+  border-radius: 0;
 }
